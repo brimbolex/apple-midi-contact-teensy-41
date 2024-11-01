@@ -4,8 +4,8 @@
 #include <NativeEthernet.h>
 
 //network
-byte mac[] = { 0x04, 0xe9, 0xe5, 0x11, 0x47, 0xee };
-byte ip[] = {10, 3, 31, 10};
+byte mac[] = {};
+byte ip[] = {};
 unsigned long t1 = millis();
 int8_t isConnected = 0;
 
