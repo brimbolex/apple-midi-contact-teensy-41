@@ -3,12 +3,12 @@
 #include <AppleMIDI.h>
 #include <Bounce2.h>
 
-byte mac[] = { 0x04, 0xe9, 0xe5, 0x0d, 0xd9, 0x8e };
+byte mac[] = {};
 //byte mac[] = teensyMAC
-byte ip[] = {10, 3, 31, 21};
-byte dns[] = {10, 3, 0, 1};
-byte gateway[] = {10, 3, 0, 1};
-byte subnet[] = {255, 255, 255, 0};
+byte ip[] = {xxx, xxx, xxx, xxx};
+byte dns[] = {};
+byte gateway[] = {};
+byte subnet[] = {};
 
 unsigned long t1 = millis();
 int8_t isConnected = 0;
